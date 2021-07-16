@@ -13,26 +13,18 @@
 <body>
     <header>
         <div class="bar">
-            <div class="left-bar">
+            <div class="contact-links">
                 <ul>
                     <li><i class="fas fa-home"></i>Kolkata, West Bengal, PIN - 700-001</li>
                     <li><i class="fas fa-envelope"></i><a
                             href="mailto:sorbajitgoswami@gmail.com">sorbajitgoswami@gmail.com</a></li>
                 </ul>
             </div>
-            <div class="right-bar">
-                <div class="facebook">
+            <div class="social-links">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </div>
-                <div class="whatsapp">
                     <a href="#"><i class="fab fa-whatsapp"></i></a>
-                </div>
-                <div class="twitter">
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-                <div class="linkedin">
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
             </div>
         </div>
         <div class="navbar">
@@ -47,9 +39,15 @@
                     </div> -->
                     <img src="./large2.png" alt="company">
                 </div>
+                <label for="nav-toggle-label" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <input type="checkbox" class="nav-toggle" name="nav-toggle" id="nav-toggle-label"></input>
                 <div class="nav">
                     <ul>
-                        <li id="home"><a href="#" style="color: #55acee;">HOME</a></li>
+                        <li id="home"><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">AGENTS</a></li>
                         <li><a href="#">PROPERTIES</a></li>
@@ -59,7 +57,7 @@
                     </ul>
                 </div>
                 <div class="submit">
-                    <button type="submit">Submit Properly</button>
+                    <a href="#"><button type="submit">Submit</button></a>
                 </div>
             </nav>
         </div>
@@ -67,21 +65,20 @@
     </header>
 
     <main>
-        <div class="title">
-            <h1>Discover a <span class="part">Property</span> You'll love to live.</h1>
-        </div>
-        <div class="sub-title">
-            <h4>The best place to find your property . . .</h4>
-        </div>
-
-        <div class="btn">
-            <div class="btn-sale">
-                <button>SALE</button>
+        <section>
+            <div class="title-section">
+                    <h1 class="title">Discover a <span class="part">Property</span> You'll love to live.</h1>
+                    <h4 class="sub-title">The best place to find your property . . .</h4>
             </div>
-            <div class="btn-rent">
-                <button>RENT</button>
+            <div class="btn">
+                <div class="btn-sale">
+                    <a href="#"><button>SALE</button></a>
+                </div>
+                <div class="btn-rent">
+                    <a href="#"><button>RENT</button></a>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 
